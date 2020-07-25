@@ -34,4 +34,29 @@
      & connecting to DB.
 */
 
-console.log('Hey Bro!!!!')
+/* The Global Object:
+    * When we write JS in a browser, the global object is the window object. We can write properties on
+        that object, such a alert, scroll, setTimeout, etc.
+    * When we write JS in Node, we don't have access to the window object because we are no longer in the 
+        browser. We have access to a global object called "Global". 
+*/
+
+// setTimeout(() => {
+//     console.log('3 seconds have passed');
+// }, 3000);
+
+// let time = 0;
+
+// let timer = setInterval(() => {
+//     time += 2;
+//     console.log(time + ' seconds have passed in timer');
+//     if(time > 7) {
+//         clearInterval(timer);
+//     }
+// }, 2000);
+
+console.log(__dirname);
+console.log(__filename);
+// require, exports
+
+console.log('Hey Bro!!!!');
