@@ -1,1 +1,1 @@
-I have change the text of file by Node.js fs module fn writeFileSync
+I have changed the text of file by Node.js fs module fn writeFileSync
