@@ -78,8 +78,18 @@
 // sayHi(); sayBye();
 // callFunction(sayHi); callFunction(sayBye);
 
-let counter = require('./counter');
+// let stuff = require('./counter');
+
+// console.log(stuff.counter(['a', 'b', 'c', 'd']));
+// console.log(stuff.adder(4, 5));
+// console.log(stuff.adder(stuff.pi, 5));
+
+// Using Array Destructuring
+
+let { counter, adder, pi } = require('./counter'); 
 
 console.log(counter(['a', 'b', 'c', 'd']));
+console.log(adder(4, 5));
+console.log(adder(pi, 5));
 
 // console.log('Hey Bro!!!!');
