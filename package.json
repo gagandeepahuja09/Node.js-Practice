@@ -1,0 +1,24 @@
+{
+  "name": "node.js-series",
+  "version": "1.0.0",
+  "description": "I have changed the text of file by Node.js fs module fn writeFileSync",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagandeepahuja09/Node.js-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagandeepahuja09/Node.js-Practice/issues"
+  },
+  "homepage": "https://github.com/gagandeepahuja09/Node.js-Practice#readme"
+}
