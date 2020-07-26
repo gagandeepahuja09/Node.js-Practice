@@ -5,8 +5,9 @@ let server = http.createServer();
 
 server.on('request', (req, res) => {
     console.log(`The request url is ${req.url}`);
-    res.writeHead(200, { 'Content-Type': 'text/plain'});
-    let myReadStream = fs.createReadStream(__dirname + '/Intro2.js');
+    res.writeHead(200, { 'Content-Type': 'text/html'});
+    let myReadStream = fs.createReadStream(__dirname + '/index.html');
+    // let myReadStream = fs.createReadStream(__dirname + '/Intro2.js');
     // res is also a writeable stream. We can read stream and write it to res
     myReadStream.pipe(res);
 });
