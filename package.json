@@ -4,7 +4,7 @@
   "description": "I have changed the text of file by Node.js fs module fn writeFileSync",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {},
   "scripts": {
